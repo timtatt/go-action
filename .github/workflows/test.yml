@@ -1,0 +1,8 @@
+on:
+  push:
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: timtatt/go-action@main

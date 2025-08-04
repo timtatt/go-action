@@ -1,0 +1,6 @@
+name: Go Action
+description: Test action to try out git lfs
+
+runs:
+  using: node20
+  main: dist/shim.js
